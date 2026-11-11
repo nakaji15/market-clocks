@@ -98,7 +98,8 @@
                     { "s": "CAPITALCOM:US30", "d": "NYダウ" },
                     { "s": "FX:USDJPY", "d": "米ドル／円" },
                     { "s": "TICKMILL:EURJPY", "d": "ユーロ／円" },
-                    { "s": "FX_IDC:AEDJPY", "d": "UEAディルハム／円" },
+                    { "s": "FX_IDC:CNYJPY", "d": "人民元／円（1元）" },
+                    { "s": "FX_IDC:AEDJPY", "d": "UAEディルハム／円" },
                     { "s": "BITFLYER:BTCJPY", "d": "ビットコイン／円" },
                     { "s": "PYTH:XAUUSD", "d": "金" },
                     { "s": "BLACKBULL:WTI", "d": "原油" }
@@ -118,7 +119,7 @@
         </div>
 
         <div class="clock-item">
-            <div class="cleanslate w24tz-current-time w24tz-middle" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;"><p><a href="//24timezones.com/State-of-New-York/time" style="text-decoration: none" class="clock24" id="tz24-1775196633-su27-eyJob3VydHlwZSI6IjI0Iiwic2hvd2RhdGUiOiIxIiwic2hvd3NlY29uZHMiOiIwIiwiY29udGFpbmVyX2lkIjoiY2xvY2tfYmxvY2tfY2I2OWNmNTlkOTczMzA5IiwidHlwZSI6ImRiIiwibGFuZyI6ImVuIn0=" title="timezone - New York" target="_blank" rel="nofollow">New York</a></p><div id="clock_block_cb69cf59d973309"></div></div>
+            <div class="cleanslate w24tz-current-time w24tz-middle" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;"><p><a href="//24timezones.com/State-of-New-York/time" style="text-decoration: none" class="clock24" id="tz24-1775196633-su27-eyJob3VydHlwZSI6IjI0Iiwic2hvd2RhdGUiOiIxIiwic2hvd3NlY29uZHMiOiIwIiwiY29udGFpbmVyX2lkIjoiY2xvY2tfYmxvY2tfY2I2OWNmNWlkOTczMzA5IiwidHlwZSI6ImRiIiwibGFuZyI6ImVuIn0=" title="timezone - New York" target="_blank" rel="nofollow">New York</a></p><div id="clock_block_cb69cf59d973309"></div></div>
         </div>
 
         <div class="clock-item">
