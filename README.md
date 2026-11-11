@@ -40,13 +40,25 @@
             width: 100%;
             text-align: center;
             border-bottom: 1px solid #363c4e;
-            padding-bottom: 5px;
+            padding-bottom: 8px;
+            padding-top: 5px;
             overflow: hidden;
+            display: flex;
+            justify-content: center;
         }
         .clock-item:last-child { border-bottom: none; }
         
+        /* 24timezonesウィジェットの表示崩れを防ぐための強制スタイル上書き */
+        .w24tz-current-time {
+            visibility: visible !important;
+            display: block !important;
+            width: 100% !important;
+            min-width: unset !important;
+            min-height: 110px !important;
+        }
+
         /* リンクの装飾（時計の都市名など） */
-        .clock-item a { color: #2962ff !important; font-weight: bold !important; font-size: 14px !important; }
+        .clock-item a { color: #2962ff !important; font-weight: bold !important; font-size: 14px !important; text-decoration: none; }
 
         h2 {
             font-size: 16px;
@@ -115,27 +127,27 @@
         <h2>WORLD CLOCK</h2>
         
         <div class="clock-item">
-            <div class="cleanslate w24tz-current-time w24tz-middle" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;"><p><a href="//24timezones.com/Tokyo/time" style="text-decoration: none" class="clock24" id="tz24-1775196657-c1248-eyJob3VydHlwZSI6IjI0Iiwic2hvd2RhdGUiOiIxIiwic2hvd3NlY29uZHMiOiIwIiwiY29udGFpbmVyX2lkIjoiY2xvY2tfYmxvY2tfY2I2OWNmNTlmMTA4NTU5IiwidHlwZSI6ImRiIiwibGFuZyI6ImVuIn0=" title="Tokyo time" target="_blank" rel="nofollow">Tokyo</a></p><div id="clock_block_cb69cf59f108559"></div></div>
+            <div class="cleanslate w24tz-current-time w24tz-middle"><p><a href="//24timezones.com/Tokyo/time" class="clock24" id="tz24-1775196657-c1248-eyJob3VydHlwZSI6IjI0Iiwic2hvd2RhdGUiOiIxIiwic2hvd3NlY29uZHMiOiIwIiwiY29udGFpbmVyX2lkIjoiY2xvY2tfYmxvY2tfY2I2OWNmNTlmMTA4NTU5IiwidHlwZSI6ImRiIiwibGFuZyI6ImVuIn0=" title="Tokyo time" target="_blank" rel="nofollow">Tokyo</a></p><div id="clock_block_cb69cf59f108559"></div></div>
         </div>
 
         <div class="clock-item">
-            <div class="cleanslate w24tz-current-time w24tz-middle" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;"><p><a href="//24timezones.com/State-of-New-York/time" style="text-decoration: none" class="clock24" id="tz24-1775196633-su27-eyJob3VydHlwZSI6IjI0Iiwic2hvd2RhdGUiOiIxIiwic2hvd3NlY29uZHMiOiIwIiwiY29udGFpbmVyX2lkIjoiY2xvY2tfYmxvY2tfY2I2OWNmNWlkOTczMzA5IiwidHlwZSI6ImRiIiwibGFuZyI6ImVuIn0=" title="timezone - New York" target="_blank" rel="nofollow">New York</a></p><div id="clock_block_cb69cf59d973309"></div></div>
+            <div class="cleanslate w24tz-current-time w24tz-middle"><p><a href="//24timezones.com/State-of-New-York/time" class="clock24" id="tz24-1775196633-su27-eyJob3VydHlwZSI6IjI0Iiwic2hvd2RhdGUiOiIxIiwic2hvd3NlY29uZHMiOiIwIiwiY29udGFpbmVyX2lkIjoiY2xvY2tfYmxvY2tfY2I2OWNmNTlkOTczMzA5IiwidHlwZSI6ImRiIiwibGFuZyI6ImVuIn0=" title="timezone - New York" target="_blank" rel="nofollow">New York</a></p><div id="clock_block_cb69cf59d973309"></div></div>
         </div>
 
         <div class="clock-item">
-            <div class="cleanslate w24tz-current-time w24tz-middle" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;"><p><a href="//24timezones.com/Los-Angeles/time" style="text-decoration: none" class="clock24" id="tz24-1775196699-c1137-eyJob3VydHlwZSI6IjI0Iiwic2hvd2RhdGUiOiIxIiwic2hvd3NlY29uZHMiOiIwIiwiY29udGFpbmVyX2lkIjoiY2xvY2tfYmxvY2tfY2I2OWNmNWExYjg0ZWI3IiwidHlwZSI6ImRiIiwibGFuZyI6ImVuIn0=" title="World Time :: Los Angeles" target="_blank" rel="nofollow">Los Angeles</a></p><div id="clock_block_cb69cf5a1b84eb7"></div></div>
+            <div class="cleanslate w24tz-current-time w24tz-middle"><p><a href="//24timezones.com/Los-Angeles/time" class="clock24" id="tz24-1775196699-c1137-eyJob3VydHlwZSI6IjI0Iiwic2hvd2RhdGUiOiIxIiwic2hvd3NlY29uZHMiOiIwIiwiY29udGFpbmVyX2lkIjoiY2xvY2tfYmxvY2tfY2I2OWNmNWExYjg0Zhb3IiwidHlwZSI6ImRiIiwibGFuZyI6ImVuIn0=" title="World Time :: Los Angeles" target="_blank" rel="nofollow">Los Angeles</a></p><div id="clock_block_cb69cf5a1b84eb7"></div></div>
         </div>
 
         <div class="clock-item">
-            <div class="cleanslate w24tz-current-time w24tz-middle" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;"><p><a href="//24timezones.com/London/time" style="text-decoration: none" class="clock24" id="tz24-1775196769-c1136-eyJob3VydHlwZSI6IjI0Iiwic2hvd2RhdGUiOiIxIiwic2hvd3NlY29uZHMiOiIwIiwiY29udGFpbmVyX2lkIjoiY2xvY2tfYmxvY2tfY2I2OWNmNWE2MTVhMjk0IiwidHlwZSI6ImRiIiwibGFuZyI6ImVuIn0=" title="London what time is now" target="_blank" rel="nofollow">London</a></p><div id="clock_block_cb69cf5a615a294"></div></div>
+            <div class="cleanslate w24tz-current-time w24tz-middle"><p><a href="//24timezones.com/London/time" class="clock24" id="tz24-1775196769-c1136-eyJob3VydHlwZSI6IjI0Iiwic2hvd2RhdGUiOiIxIiwic2hvd3NlY29uZHMiOiIwIiwiY29udGFpbmVyX2lkIjoiY2xvY2tfYmxvY2tfY2I2OWNmNWE2MTVhMjk0IiwidHlwZSI6ImRiIiwibGFuZyI6ImVuIn0=" title="London what time is now" target="_blank" rel="nofollow">London</a></p><div id="clock_block_cb69cf5a615a294"></div></div>
         </div>
 
         <div class="clock-item">
-            <div class="cleanslate w24tz-current-time w24tz-middle" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;"><p><a href="//24timezones.com/Sydney/time" style="text-decoration: none" class="clock24" id="tz24-1775196790-c1240-eyJob3VydHlwZSI6IjI0Iiwic2hvd2RhdGUiOiIxIiwic2hvd3NlY29uZHMiOiIwIiwiY29udGFpbmVyX2lkIjoiY2xvY2tfYmxvY2tfY2I2OWNmNWE3NjVjYjE4IiwidHlwZSI6ImRiIiwibGFuZyI6ImVuIn0=" title="Sydney current time" target="_blank" rel="nofollow">Sydney</a></p><div id="clock_block_cb69cf5a765cb18"></div></div>
+            <div class="cleanslate w24tz-current-time w24tz-middle"><p><a href="//24timezones.com/Sydney/time" class="clock24" id="tz24-1775196790-c1240-eyJob3VydHlwZSI6IjI0Iiwic2hvd2RhdGUiOiIxIiwic2hvd3NlY29uZHMiOiIwIiwiY29udGFpbmVyX2lkIjoiY2xvY2tfYmxvY2tfY2I2OWNmNWE3NjVjYjE4IiwidHlwZSI6ImRiIiwibGFuZyI6ImVuIn0=" title="Sydney current time" target="_blank" rel="nofollow">Sydney</a></p><div id="clock_block_cb69cf5a765cb18"></div></div>
         </div>
 
         <div class="clock-item">
-            <div class="cleanslate w24tz-current-time w24tz-middle" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;"><p><a href="//24timezones.com/Beijing/time" style="text-decoration: none" class="clock24" id="tz24-1775196855-c133-eyJob3VydHlwZSI6IjI0Iiwic2hvd2RhdGUiOiIxIiwic2hvd3NlY29uZHMiOiIwIiwiY29udGFpbmVyX2lkIjoiY2xvY2tfYmxvY2tfY2I2OWNmNWFiNzViMGIzIiwidHlwZSI6ImRiIiwibGFuZyI6ImVuIn0=" title="Beijing time zone" target="_blank" rel="nofollow">Beijing</a></p><div id="clock_block_cb69cf5ab75b0b3"></div></div>
+            <div class="cleanslate w24tz-current-time w24tz-middle"><p><a href="//24timezones.com/Beijing/time" class="clock24" id="tz24-1775196855-c133-eyJob3VydHlwZSI6IjI0Iiwic2hvd2RhdGUiOiIxIiwic2hvd3NlY29uZHMiOiIwIiwiY29udGFpbmVyX2lkIjoiY2xvY2tfYmxvY2tfY2I2OWNmNWFiNzViMGIzIiwidHlwZSI6ImRiIiwibGFuZyI6ImVuIn0=" title="Beijing time zone" target="_blank" rel="nofollow">Beijing</a></p><div id="clock_block_cb69cf5ab75b0b3"></div></div>
         </div>
 
     </div>
